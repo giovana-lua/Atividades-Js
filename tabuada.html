@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tabuada</title>
+</head>
+<header></header>
+<body>
+
+    <div class="tela">
+       <div class="titulo"><h1>Tabuada</h1></div> 
+    <input type="text"  id="entrada" placeholder="Digite um número!">
+    <button onclick="calculo()">Calcular</button>
+    <div id="resultado"></div>
+    </div>
+    
+
+    <script>
+        function calculo(){
+        let numero = Number(document.getElementById("entrada").value);
+        let i = 0;
+        let saida = [];
+            
+        while (i <=10) {
+            let resultado = numero * i;
+            saida += `${numero} x ${i} = ${resultado}` 
+            i++;
+        }
+            document.getElementById("resultado").innerHTML = saida;
+        
+        }
+        
+    </script>
+
+
+    
+</body>
+</html>

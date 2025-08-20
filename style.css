@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    
+    gap: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+body{
+    background-color: mediumslateblue;
+    
+    
+}
+
+button{
+    
+    background-color: blueviolet;
+    box-shadow: 0 2px 4px purple;
+    border-radius: 4px;
+    height: 30px;
+    width: 60px;
+}
+
+.titulo{
+    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    text-align: center;
+    background-color: rgb(187, 176, 250);
+    font-size: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px indigo;
+}
